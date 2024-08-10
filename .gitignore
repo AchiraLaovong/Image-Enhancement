@@ -1,3 +1,6 @@
 .idea/
 output_images/
 Dataset/
+Dataset/Cropped
+Dataset/DIV2K_train_HR
+Dataset/Processed
