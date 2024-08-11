@@ -46,12 +46,15 @@ The model is trained using the Adam optimizer with a learning rate of 1e-4 and a
 The model is evaluated using the test dataset. The results are shown below:
 
 Original Image:
+
 ![Original Image](original.png)
 
 Bicubic Interpolation:
+
 ![Bicubic Interpolation](bi_example.png)
 
 SRCNN:
+
 ![SRCNN](sr_image_46.png)
 
 SRCNN's Overall Evaluation Metrics:
