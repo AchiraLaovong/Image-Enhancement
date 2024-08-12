@@ -35,7 +35,7 @@ The model is trained using a custom loss function using the mean squared error (
 The loss function is defined as follows:
 
 ```
-loss = 0.8 * sigmoid(MSE) + 0.1 * (1 - (1 + SSIM)/2) + 0.1 * sigmoid(VGG19_loss)
+loss = 0.8 * sigmoid(MSE) + 0.1 * (1 - (1 + SSIM)/2)) + 0.1 * sigmoid(VGG19_loss)
 ```
 This loss function is used to balance the trade-off between the MSE, SSIM, and VGG19 Perceptual loss. This custom loss function is not optimal and can be improved.
 
